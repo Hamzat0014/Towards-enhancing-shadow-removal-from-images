@@ -34,3 +34,22 @@ set to include dark, hard-edged, and multi-colour contrast shadows.
 
 Relative to the compared baselines, this represents improvements of up
 to 111.4% in RMSE and 23.86% in PSNR.
+
+
+
+## Extended ISTD Dataset
+
+Extended ISTD contains 5,352 image triplets (shadow / shadow-mask /
+shadow-free), broadening the original ISTD benchmark to cover dark,
+hard-edged, and multi-colour contrast shadows.
+
+**[Download (Google Drive)](https://drive.google.com/file/d/1HGpbqxVUU0-qzTmNMN7gMHtvA9YsiXjr/view?usp=sharing)** · ~X GB
+
+Or from the command line:
+
+```bash
+pip install gdown
+gdown 1HGpbqxVUU0-qzTmNMN7gMHtvA9YsiXjr
+```
+
+### Structure
