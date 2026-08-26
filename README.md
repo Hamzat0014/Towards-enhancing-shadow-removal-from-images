@@ -53,15 +53,18 @@ gdown 1HGpbqxVUU0-qzTmNMN7gMHtvA9YsiXjr
 ```
 
 ### Structure
+
+```text
 Extended_ISTD/
 ├── train/
-│ ├── shadow/
-│ ├── mask/
-│ └── shadow_free/
+│   ├── shadow/
+│   ├── mask/
+│   └── shadow_free/
 └── test/
-├── shadow/
-├── mask/
-└── shadow_free/
+    ├── shadow/
+    ├── mask/
+    └── shadow_free/
+```
 
 
 ## Citation
