@@ -43,7 +43,7 @@ Extended ISTD contains 5,352 image triplets (shadow / shadow-mask /
 shadow-free), broadening the original ISTD benchmark to cover dark,
 hard-edged, and multi-colour contrast shadows.
 
-**[Download (Google Drive)](https://drive.google.com/file/d/1HGpbqxVUU0-qzTmNMN7gMHtvA9YsiXjr/view?usp=sharing)** · ~X GB
+**[Download (Google Drive)](https://drive.google.com/file/d/1HGpbqxVUU0-qzTmNMN7gMHtvA9YsiXjr/view?usp=sharing)** · ~1.7 GB
 
 Or from the command line:
 
@@ -53,3 +53,43 @@ gdown 1HGpbqxVUU0-qzTmNMN7gMHtvA9YsiXjr
 ```
 
 ### Structure
+Extended_ISTD/
+├── train/
+│ ├── shadow/
+│ ├── mask/
+│ └── shadow_free/
+└── test/
+├── shadow/
+├── mask/
+└── shadow_free/
+
+
+## Citation
+
+If you use this code or the Extended ISTD dataset in your research,
+please cite our paper:
+
+```bibtex
+@article{tariq2025shadow,
+  title   = {Towards enhancing shadow removal from images},
+  author  = {Tariq, Muhammad Hamza and Salman, Ahmad and Khurshid, Khawar},
+  journal = {Multimedia Tools and Applications},
+  volume  = {84},
+  number  = {17},
+  pages   = {18419--18444},
+  year    = {2025},
+  month   = may,
+  doi     = {10.1007/s11042-024-19824-2},
+  url     = {https://doi.org/10.1007/s11042-024-19824-2},
+  issn    = {1573-7721},
+  publisher = {Springer US}
+}
+```
+
+**Plain text (APA):**
+
+> Tariq, M. H., Salman, A., & Khurshid, K. (2025). Towards enhancing shadow removal from images. *Multimedia Tools and Applications, 84*(17), 18419–18444. https://doi.org/10.1007/s11042-024-19824-2
+
+**IEEE:**
+
+> M. H. Tariq, A. Salman, and K. Khurshid, "Towards enhancing shadow removal from images," *Multimedia Tools and Applications*, vol. 84, no. 17, pp. 18419–18444, 2025.
